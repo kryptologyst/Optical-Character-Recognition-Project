@@ -1,0 +1,31 @@
+# OCR Configuration File
+
+# OCR Engine Settings
+default_engine: "tesseract"
+tesseract_language: "eng"
+tesseract_config: "--psm 6"
+
+# EasyOCR Settings
+easyocr_languages: ["en"]
+easyocr_gpu: false
+
+# PaddleOCR Settings
+paddleocr_language: "en"
+paddleocr_use_angle_cls: true
+paddleocr_use_gpu: false
+
+# Image Processing Settings
+image_preprocessing: true
+denoise_kernel_size: 3
+adaptive_threshold_block_size: 11
+adaptive_threshold_c: 2
+
+# Output Settings
+save_results: true
+output_format: "txt"
+include_confidence: true
+include_bounding_boxes: true
+
+# Logging Settings
+log_level: "INFO"
+log_file: "logs/ocr.log"

@@ -1,0 +1,46 @@
+# Core OCR Libraries
+pytesseract>=0.3.10
+easyocr>=1.7.0
+paddleocr>=2.7.0
+paddlepaddle>=2.5.0
+
+# Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+scikit-image>=0.21.0
+
+# Machine Learning & Transformers
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.14.0
+evaluate>=0.4.0
+
+# Data Science & Visualization
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web Interface
+streamlit>=1.28.0
+gradio>=3.40.0
+
+# Configuration & Logging
+pyyaml>=6.0
+python-dotenv>=1.0.0
+loguru>=0.7.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0
+
+# Development Tools
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+pre-commit>=3.3.0
+
+# Optional: GPU acceleration
+# torch-audio>=2.0.0  # Uncomment if using audio features
+# torchvision>=0.15.0  # Uncomment if using vision transformers
